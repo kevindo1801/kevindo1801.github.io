@@ -57,5 +57,11 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Data Analyst with a versatile skill set encompassing data engineering and business analytics. I hold a Bachelor of Business Administration in **Info Tech & Mgmt Infor Systems** from **Wichita State University** and an Associate's in Business Administration and Management from Butler Community College, reflecting my dedication to both technical expertise and practical business acumen. 
+
+Currently, I am working as a Business Analyst at **Bombardier**, where I leverage my proficiency in **Python**, **SQL**, and data visualization tools like **Power BI** to streamline processes and drive data-driven decision-making. Notably, I lead the development of a reporting dashboard utilized by over **200** customers, resulting in a **37%** reduction in open notifications. My hands-on experience in **Azure Synapse** has allowed me to craft efficient SQL queries and enhance our data analysis capabilities, while also ensuring data integrity and compliance across various teams within the organization.
+
+During my time of employment, I enjoy taking on new challenges and expanding my technical skills through challenging projects, such as the Notifications Dashboard and Wilbur Extract Automation. These projects not only showcase my proficiency in Python, SQL, and various data analysis tools but also highlight my passion for innovation and continuous improvement.
+
+I am excited about the opportunity to bring my unique blend of technical expertise and business acumen to a dynamic team. Let's connect and explore how my skills and experience can contribute to the success of your organization.
 {style="text-align: justify;"}
