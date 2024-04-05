@@ -77,8 +77,7 @@ sections:
               * Utilize Python and PySpark to manipulate data sets and develop governance scripts that’ll create meaningful data.
               * Implementing and optimizing data integration processes through the use of ETL process. Process of extracting, transforming, and loading data in target databases.
               * Developed and owned multiple reporting visuals such as Notifications Daily Count, Inflow/Outflow, Aging Over 30 Days, etc. using SQL and DAX that boosted the average turn around times by 15%.
-
-    - title: Ecommerce Specialist
+        - title: Ecommerce Specialist
           company: Self Employed
           company_url: ''
           company_logo: self employed
@@ -90,8 +89,7 @@ sections:
             * Product acquisition, consignment sales, management, distribution, analyze market trends.
             * Inventory Maintenance, Accounting, Buying wholesale products for resale.
             * Successfully founded and maintained e-commerce shop online with exceptional 100% feedback seller status.
-    
-    - title: Bank Teller
+        - title: Bank Teller
           company: Capitol Federal Savings Bank
           company_url: ''
           company_logo: org-x
