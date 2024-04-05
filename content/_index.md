@@ -62,27 +62,47 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Business Analyst
+          company: Bombardier
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Wichita, KS
+          date_start: '2022-09-01'
           date_end: ''
           description: |2-
               Responsibilities include:
+              * Built and maintained a reporting dashboard that was used by more than 200 customers with Power Bi, PySpark, SQL, and Excel, reducing the amount of open notifications by 37%.
+              * Work in Azure Synapse to craft SQL queries and generate views for tables within our database, further enhancing our data analysis capabilities.
+              * Handle ad-hoc tasks and maintain and update governance visibility for various teams within the organization, ensuring data integrity and compliance across the board.
+              * Utilize Python and PySpark to manipulate data sets and develop governance scripts that’ll create meaningful data.
+              * Implementing and optimizing data integration processes through the use of ETL process. Process of extracting, transforming, and loading data in target databases.
+              * Developed and owned multiple reporting visuals such as Notifications Daily Count, Inflow/Outflow, Aging Over 30 Days, etc. using SQL and DAX that boosted the average turn around times by 15%.
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+    - title: Ecommerce Specialist
+          company: Self Employed
+          company_url: ''
+          company_logo: self employed
+          location: Wichita, KS
+          date_start: '2020-05-01'
+          date_end: '2022-08-31'
+          description: |2-
+            Responsibilities include:
+            * Product acquisition, consignment sales, management, distribution, analyze market trends.
+            * Inventory Maintenance, Accounting, Buying wholesale products for resale.
+            * Successfully founded and maintained e-commerce shop online with exceptional 100% feedback seller status.
+    
+    - title: Bank Teller
+          company: Capitol Federal Savings Bank
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Wichita, KS
+          date_start: '2020-09-01'
+          date_end: '2021-01-31'
+          description: |2-
+            Responsibilities include:
+            * Balances cashbox daily to ensure accuracy in transactions and helps in rotation of vault duties.
+            * Assist customers with maintenance on existing accounts as defined by the Bank.
+            * Assist with payoffs and closeouts on existing mortgage, execuline, installment loans.
     design:
       columns: '2'
   - block: accomplishments
