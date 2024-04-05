@@ -36,15 +36,20 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
-        
   - block: about.biography
     id: about
     content:
-      title: About
+      title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-
-
+  - block: skills
+    content:
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
+    design:
+      columns: '1'
   - block: experience
     content:
       title: Experience
@@ -57,56 +62,33 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Business Analyst
-          company: Bombardier
+        - title: CEO
+          company: GenCoin
           company_url: ''
           company_logo: org-gc
-          location: Wichita, KS
-          date_start: '2022-09-01'
+          location: California
+          date_start: '2021-01-01'
           date_end: ''
           description: |2-
               Responsibilities include:
-              * Built and maintained a reporting dashboard that was used by more than 200 customers with Power Bi, PySpark, SQL, and Excel, reducing the amount of open notifications by 37%.
-              * Work in Azure Synapse to craft SQL queries and generate views for tables within our database, further enhancing our data analysis capabilities.
-              * Utilize Python and PySpark to manipulate data sets and develop governance scripts that’ll create meaningful data.
-              * Implementing and optimizing data integration processes through the use of ETL process. Process of extracting, transforming, and loading data in target databases.
-              * Developed and owned multiple reporting visuals such as Notifications Daily Count, Inflow/Outflow, Aging Over 30 Days, etc. using SQL and DAX that boosted the average turn around times by 15%.
-        
-        - title: Ecommerce Specialist
-          company: Self Employed
-          company_url: ''
-          company_logo: self employed
-          location: Quebec
-          date_start: '2020-05-01'
-          date_end: '2022-08-28'
-          description: |2-
-              Responsibilities include:
-              * Product acquisition, consignment sales, management, distribution, analyze market trends.
-              * Inventory Maintenance, Accounting, Buying wholesale products for resale.
-              * Successfully founded and maintained e-commerce shop online with exceptional 100% feedback seller status.
 
-        - title: Bank Teller
-          company: Capitol Federal Savings Bank
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Professor of Semiconductor Physics
+          company: University X
           company_url: ''
           company_logo: org-x
-          location: Quebec
-          date_start: '2020-09-01'
-          date_end: '2021-01-30'
-          description: |2-
-              Responsibilities include:
-              * Balances cashbox daily to ensure accuracy in transactions and helps in rotation of vault duties.
-              * Assist customers with maintenance on existing accounts as defined by the Bank.
-              * Assist with payoffs and closeouts on existing mortgage, execuline, installment loans.
-          
+          location: California
+          date_start: '2016-01-01'
+          date_end: '2020-12-31'
+          description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
-
-
-
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Certificate'
+      title: 'Accomplish&shy;ments'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -116,27 +98,62 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.datacamp.com/statement-of-accomplishment/course/5326f5b4788529fb97f4fd87c1c103820752562b
+        - certificate_url: https://www.coursera.org
           date_end: ''
-          date_start: '2023-05-01'
+          date_start: '2021-01-25'
+          description: ''
+          icon: coursera
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Neural Networks and Deep Learning
+          url: ''
+        - certificate_url: https://www.edx.org
+          date_end: ''
+          date_start: '2021-01-01'
           description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'GARCH Models in R,'
-
-        - certificate_url: https://www.datacamp.com/statement-of-accomplishment/course/cb5bbb5fc7dd36f8bc8c99c9db36b0a97a57b3b9
-          date_end: ''
-          date_start: '2023-06-01'
+          icon: edx
+          organization: edX
+          organization_url: https://www.edx.org
+          title: Blockchain Fundamentals
+          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+        - certificate_url: https://www.datacamp.com
+          date_end: '2020-12-21'
+          date_start: '2020-07-01'
           description: ''
           icon: datacamp
           organization: DataCamp
           organization_url: https://www.datacamp.com
-          title: 'Intermediate SQL'
+          title: 'Object-Oriented Programming in R'
           url: ''
     design:
       columns: '2'
-
+  - block: collection
+    id: posts
+    content:
+      title: Recent Posts
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: '2'
   - block: portfolio
     id: projects
     content:
@@ -154,14 +171,113 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Data Visualization
-          tag: Data Visualization
-        - name: Automation
-          tag: Automation
-          
+        - name: Deep Learning
+          tag: Deep Learning
+        - name: Other
+          tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+  - block: markdown
+    content:
+      title: Gallery
+      subtitle: ''
+      text: |-
+        {{< gallery album="demo" >}}
+    design:
+      columns: '1'
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
+  - block: collection
+    content:
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
+  - block: tag_cloud
+    content:
+      title: Popular Topics
+    design:
+      columns: '2'
+  - block: contact
+    id: contact
+    content:
+      title: Contact
+      subtitle:
+      text: |-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      # Contact (add or remove contact options as necessary)
+      email: test@example.org
+      phone: 888 888 88 88
+      appointment_url: 'https://calendly.com'
+      address:
+        street: 450 Serra Mall
+        city: Stanford
+        region: CA
+        postcode: '94305'
+        country: United States
+        country_code: US
+      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      office_hours:
+        - 'Monday 10:00 to 13:00'
+        - 'Wednesday 09:00 to 10:00'
+      # Choose a map provider in `params.yaml` to show a map from these coordinates
+      coordinates:
+        latitude: '37.4275'
+        longitude: '-122.1697'  
+      contact_links:
+        - icon: twitter
+          icon_pack: fab
+          name: DM Me
+          link: 'https://twitter.com/Twitter'
+        - icon: skype
+          icon_pack: fab
+          name: Skype Me
+          link: 'skype:echo123?call'
+        - icon: video
+          icon_pack: fas
+          name: Zoom Me
+          link: 'https://zoom.com'
+      # Automatically link email and phone or display as text?
+      autolink: true
+      # Email form provider
+      form:
+        provider: netlify
+        formspree:
+          id:
+        netlify:
+          # Enable CAPTCHA challenge to reduce spam?
+          captcha: false
+    design:
+      columns: '2'
+---
