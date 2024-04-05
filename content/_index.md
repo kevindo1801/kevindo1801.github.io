@@ -57,7 +57,7 @@ sections:
         - title: Business Analyst
           company: Bombardier
           company_url: ''
-          company_logo: org-gc
+          company_logo: bomb logo
           location: Wichita, KS
           date_start: '2022-09-01'
           date_end: ''
