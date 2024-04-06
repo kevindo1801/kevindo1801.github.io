@@ -1,4 +1,4 @@
-g---
+---
 # Display name
 title: Kevin Do
 
