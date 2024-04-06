@@ -1,4 +1,4 @@
----
+g---
 # Display name
 title: Kevin Do
 
@@ -17,7 +17,7 @@ role: Data Analyst
 interests:
   - Business Intelligence
   - Data Visualization
-  - Data Governance
+  - Data Engineering
 
 # Education to show in About widget
 education:
