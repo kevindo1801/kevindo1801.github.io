@@ -112,7 +112,7 @@ sections:
           date_end: ''
           date_start: '2024-02-21'
           description: This credential earner demonstrates knowledge of information technology (IT) basics, methodologies of troubleshooting, and the tools and resources that IT professionals use.
-          icon: IBM
+          icon: 'IBM'
           organization: IBM SkillsBuild
           organization_url: https://www.ibm.com/us-en
           title: 'Information Technology Fundamentals'
@@ -121,7 +121,7 @@ sections:
           date_end: ''
           date_start: '2024-03-22'
           description: This credential earner demonstrates knowledge of data analytics concepts, methodologies and applications of data science, and the tools and programming languages used in the data ecosystem.
-          icon: IBM
+          icon: 'IBM'
           organization: IBM SkillsBuild
           organization_url: https://www.ibm.com/us-en
           title: 'Data Fundamentals'
@@ -130,7 +130,7 @@ sections:
           date_end: ''
           date_start: '2024-02-22'
           description: 'This credential earner demonstrates knowledge of cloud computing, including cloud services, deployment models, virtualization, orchestration, and cloud security.'
-          icon: IBM
+          icon: 'IBM'
           organization: IBM SkillsBuild
           organization_url: https://www.ibm.com/us-en
           title: 'Cloud Computing Fundamentals'
@@ -139,7 +139,7 @@ sections:
           date_end: ''
           date_start: '2024-05-01'
           description: 'This credential earner demonstrates knowledge of artificial intelligence (AI) concepts, such as natural language processing, computer vision, machine learning, deep learning, chatbots.'
-          icon: IBM
+          icon: 'IBM'
           organization: IBM SkillsBuild
           organization_url: https://www.ibm.com/us-en
           title: 'Artificial Intelligence Fundamentals'
