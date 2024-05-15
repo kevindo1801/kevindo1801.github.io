@@ -138,7 +138,7 @@ sections:
         - certificate_url: https://www.datacamp.com
           date_end: ''
           date_start: '2024-05-01'
-          description: 'This credential earner demonstrates knowledge of artificial intelligence (AI) concepts, such as natural language processing, computer vision, machine learning, deep learning, chatbots, and neural networks; AI ethics; and the applications of AI.'
+          description: 'This credential earner demonstrates knowledge of artificial intelligence (AI) concepts, such as natural language processing, computer vision, machine learning, deep learning, chatbots.'
           icon: IBM
           organization: IBM SkillsBuild
           organization_url: https://www.ibm.com/us-en
