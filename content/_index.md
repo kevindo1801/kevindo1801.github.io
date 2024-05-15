@@ -108,32 +108,41 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.credly.com/badges/e2caca9b-a44a-4f7a-a131-f4ee16cf2d06/print
           date_end: ''
-          date_start: '2021-01-25'
-          description: ''
+          date_start: '2024-02-21'
+          description: This credential earner demonstrates knowledge of information technology (IT) basics, methodologies of troubleshooting, and the tools and resources that IT professionals use.
           icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          organization: IBM SkillsBuild
+          organization_url: https://www.ibm.com/us-en
+          title: 'Information Technology Fundamentals'
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://www.credly.com/badges/0a8958f9-d9eb-4b78-9686-304d8a2e1ca3/print
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
+          date_start: '2024-03-22'
+          description: This credential earner demonstrates knowledge of data analytics concepts, methodologies and applications of data science, and the tools and programming languages used in the data ecosystem.
+          icon: IBM
+          organization: IBM SkillsBuild
+          organization_url: https://www.ibm.com/us-en
+          title: 'Data Fundamentals'
           url: 
+        - certificate_url: https://www.credly.com/badges/4d3f4a5f-4765-4a27-be29-3d3492541e09/print
+          date_end: ''
+          date_start: '2024-02-22'
+          description: 'This credential earner demonstrates knowledge of cloud computing, including cloud services, deployment models, virtualization, orchestration, and cloud security.'
+          icon: IBM
+          organization: IBM SkillsBuild
+          organization_url: https://www.ibm.com/us-en
+          title: 'Cloud Computing Fundamentals'
+          url: ''
         - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          date_end: ''
+          date_start: '2024-05-01'
+          description: 'This credential earner demonstrates knowledge of artificial intelligence (AI) concepts, such as natural language processing, computer vision, machine learning, deep learning, chatbots, and neural networks; AI ethics; and the applications of AI.'
+          icon: IBM
+          organization: IBM SkillsBuild
+          organization_url: https://www.ibm.com/us-en
+          title: 'Artificial Intelligence Fundamentals'
           url: ''
     design:
       columns: '2'
