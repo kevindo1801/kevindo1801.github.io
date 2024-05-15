@@ -114,7 +114,7 @@ sections:
           description: This credential earner demonstrates knowledge of information technology (IT) basics, methodologies of troubleshooting, and the tools and resources that IT professionals use.
           icon: IBM
           organization: IBM SkillsBuild
-          organization_url: https://www.ibm.com/us-en
+          organization_url: https://www.ibm.com
           title: 'Information Technology Fundamentals'
           url: ''
         - certificate_url: https://www.credly.com/badges/0a8958f9-d9eb-4b78-9686-304d8a2e1ca3/print
@@ -123,7 +123,7 @@ sections:
           description: This credential earner demonstrates knowledge of data analytics concepts, methodologies and applications of data science, and the tools and programming languages used in the data ecosystem.
           icon: IBM
           organization: IBM SkillsBuild
-          organization_url: https://www.ibm.com/us-en
+          organization_url: https://www.ibm.com
           title: 'Data Fundamentals'
           url: 
         - certificate_url: https://www.credly.com/badges/4d3f4a5f-4765-4a27-be29-3d3492541e09/print
@@ -132,16 +132,16 @@ sections:
           description: 'This credential earner demonstrates knowledge of cloud computing, including cloud services, deployment models, virtualization, orchestration, and cloud security.'
           icon: IBM
           organization: IBM SkillsBuild
-          organization_url: https://www.ibm.com/us-en
+          organization_url: https://www.ibm.com
           title: 'Cloud Computing Fundamentals'
           url: ''
         - certificate_url: https://www.credly.com/badges/92926611-2993-4012-acb5-afeb36f97408/print
           date_end: ''
           date_start: '2024-05-01'
           description: 'This credential earner demonstrates knowledge of artificial intelligence (AI) concepts, such as natural language processing, computer vision, machine learning, deep learning, chatbots.'
-          icon: datacamp
+          icon: IBM
           organization: IBM SkillsBuild
-          organization_url: https://www.ibm.com/us-en
+          organization_url: https://www.ibm.com
           title: 'Artificial Intelligence Fundamentals'
           url: ''
     design:
