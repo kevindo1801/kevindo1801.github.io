@@ -112,7 +112,7 @@ sections:
           date_end: ''
           date_start: '2024-02-21'
           description: This credential earner demonstrates knowledge of information technology (IT) basics, methodologies of troubleshooting, and the tools and resources that IT professionals use.
-          icon: coursera
+          icon: IBM
           organization: IBM SkillsBuild
           organization_url: https://www.ibm.com/us-en
           title: 'Information Technology Fundamentals'
@@ -135,7 +135,7 @@ sections:
           organization_url: https://www.ibm.com/us-en
           title: 'Cloud Computing Fundamentals'
           url: ''
-        - certificate_url: https://www.datacamp.com
+        - certificate_url: https://www.credly.com/badges/92926611-2993-4012-acb5-afeb36f97408/print
           date_end: ''
           date_start: '2024-05-01'
           description: 'This credential earner demonstrates knowledge of artificial intelligence (AI) concepts, such as natural language processing, computer vision, machine learning, deep learning, chatbots.'
