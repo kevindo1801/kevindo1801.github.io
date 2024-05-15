@@ -148,7 +148,7 @@ sections:
       columns: '2'
     
   - block: portfolio
-    # id: projects
+    id: projects
     # content:
       # title: Projects
       # filters:
