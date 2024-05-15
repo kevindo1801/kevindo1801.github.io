@@ -139,7 +139,7 @@ sections:
           date_end: ''
           date_start: '2024-05-01'
           description: 'This credential earner demonstrates knowledge of artificial intelligence (AI) concepts, such as natural language processing, computer vision, machine learning, deep learning, chatbots.'
-          icon: IBM
+          icon: datacamp
           organization: IBM SkillsBuild
           organization_url: https://www.ibm.com/us-en
           title: 'Artificial Intelligence Fundamentals'
